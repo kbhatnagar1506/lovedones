@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>LovedOnes</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string></string>
+		<key>UIImageName</key>
+		<string></string>
+	</dict>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	
+	<!-- 🎥 CAMERA PERMISSIONS -->
+	<key>NSCameraUsageDescription</key>
+	<string>LovedOnes needs camera access to capture precious family moments and enable face recognition features for memory lane.</string>
+	
+	<!-- 🎤 MICROPHONE PERMISSIONS -->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>LovedOnes needs microphone access to record voice notes and audio memories for your loved ones.</string>
+	
+	<!-- 📸 PHOTO LIBRARY PERMISSIONS -->
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>LovedOnes needs photo library access to save and organize your family memories and photos.</string>
+	
+	<!-- 📷 PHOTO ADD PERMISSIONS -->
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>LovedOnes needs permission to save photos to your library when you create new memories.</string>
+	
+	<!-- 📞 CONTACTS PERMISSIONS -->
+	<key>NSContactsUsageDescription</key>
+	<string>LovedOnes needs contacts access to help you quickly add family members and emergency contacts.</string>
+	
+	<!-- 📅 CALENDAR PERMISSIONS -->
+	<key>NSCalendarsUsageDescription</key>
+	<string>LovedOnes needs calendar access to create and manage reminders for medication and appointments.</string>
+	
+	<!-- 🔔 REMINDERS PERMISSIONS -->
+	<key>NSRemindersUsageDescription</key>
+	<string>LovedOnes needs reminders access to help you stay organized with important tasks and medication schedules.</string>
+	
+	<!-- 📍 LOCATION PERMISSIONS -->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>LovedOnes needs location access to provide location-based features and emergency assistance.</string>
+	
+	<!-- 📍 LOCATION ALWAYS PERMISSIONS -->
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>LovedOnes needs location access to provide safety features and emergency assistance for your loved ones.</string>
+	
+	<!-- 🎵 SPEECH RECOGNITION PERMISSIONS -->
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>LovedOnes needs speech recognition to convert your voice notes into text for easier memory creation.</string>
+	
+	<!-- 🔔 NOTIFICATION PERMISSIONS -->
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>LovedOnes needs notification access to send you important reminders and updates about your loved ones.</string>
+	
+	<!-- 🏃 MOTION & FITNESS PERMISSIONS -->
+	<key>NSMotionUsageDescription</key>
+	<string>LovedOnes needs motion access to track activity levels and provide wellness insights for your loved ones.</string>
+	
+	<!-- ❤️ HEALTHKIT PERMISSIONS -->
+	<key>NSHealthShareUsageDescription</key>
+	<string>LovedOnes needs access to your health data to provide comprehensive wellness tracking, medication reminders, and health insights for you and your loved ones.</string>
+	
+	<!-- 🎵 MEDIA LIBRARY PERMISSIONS -->
+	<key>NSAppleMusicUsageDescription</key>
+	<string>LovedOnes needs media library access to play calming music and create personalized playlists for your loved ones.</string>
+	
+	<!-- 🔒 FACE ID / TOUCH ID PERMISSIONS -->
+	<key>NSFaceIDUsageDescription</key>
+	<string>LovedOnes uses Face ID to securely access your personal memories and protect your family's privacy.</string>
+	
+	<!-- 📱 BACKGROUND MODES -->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>background-processing</string>
+		<string>background-fetch</string>
+		<string>remote-notification</string>
+	</array>
+	
+	<!-- 🌐 NETWORK SECURITY -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>cognitiveservices.azure.com</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSExceptionMinimumTLSVersion</key>
+				<string>TLSv1.0</string>
+			</dict>
+		</dict>
+	</dict>
+	
+	<!-- 🎨 UI CONFIGURATION -->
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	
+	<!-- 📱 SUPPORTED DEVICES -->
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	
+	<!-- 🎯 TARGET DEVICE -->
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	
+	<!-- 🔧 DEVELOPMENT SETTINGS -->
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	
+	<!-- 📊 ANALYTICS (Optional) -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>lovedones.app</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>lovedones</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
