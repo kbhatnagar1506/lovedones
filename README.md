@@ -10,7 +10,7 @@
 
 ## 🎯 **The Problem We Solve**
 
-Alzheimer's disease affects **6.7 million Americans** and **50 million people worldwide**. Caregivers face overwhelming challenges:
+Alzheimer's disease affects **6.7 million Americans** and **36.5 million people worldwide**. Caregivers face overwhelming challenges:
 - **24/7 monitoring** of wandering and safety risks
 - **Complex medication management** with declining cognitive function
 - **Communication barriers** as the disease progresses
