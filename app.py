@@ -515,6 +515,7 @@ def clear_all_faces():
                 "success": True,
                 "message": "All faces cleared successfully"
             })
+            
         finally:
             db.close()
     except Exception as e:
